@@ -1,0 +1,93 @@
+body {
+    margin: 0;
+    font-family: sans-serif;
+    color: #dedede;
+}
+.wrapper {
+    height: calc(100vh - 100px);
+    padding: 50px 0 50px 50px;
+    background-color: #222;
+}
+header {
+    font-size: 0;
+    margin: 0 50px 50px 0;
+}
+h1, h3 {
+    display: inline-block;
+    width: 50%;
+    vertical-align: top;
+    font-weight: 400;
+    margin: 0;
+}
+h1 {
+    font-size: 3rem;
+}
+h3 {
+    font-size: 2rem;
+    text-align: right;
+}
+main {
+    height: 590px;
+    font-size: 0;
+    overflow-x: auto;
+}
+.scroll {
+    width: 2000px;
+    padding-right: 50px;
+}
+.column {
+    height: 540px;
+    width: 210px;
+    margin-right: 10px;
+    display: inline-block;
+    vertical-align: top;
+}
+.group {
+    display: inline-block;
+    vertical-align: top;
+    margin-right: 40px;
+}
+.group_1 *:not(.column) {
+    background: rgb(199, 0, 80);
+}
+.group_2 *:not(.column) {
+    background: rgb(221, 44, 0);
+}
+.group_3 *:not(.column) {
+    background: rgb(204, 163, 0);
+}
+.group_4 *:not(.column) {
+    background: rgb(0, 255, 0);
+}
+.group_5 *:not(.column) {
+    background: rgb(0, 255, 191);
+}
+.group_6 *:not(.column) {
+    background: rgb(0, 128, 255);
+}
+
+.minicontainer {
+    width: 100px;
+    height: 100px;
+    background: #000;
+    margin-bottom: 10px;
+    margin-right: 10px;
+    display: inline-block;
+    vertical-align: top;
+}
+.mediumcontainer {
+    width: 210px;
+    height: 100px;
+    margin-bottom: 10px;
+}
+.bigcontainer {
+    width: 210px;
+    height: 210px;
+    margin-bottom: 10px;
+}
+.mr0 {
+    margin-right: 0;
+}
+.mb0 {
+    margin-bottom: 0;
+}
